@@ -2,4 +2,3 @@
 node_modules
 giraph-error.log
 send.php
-lib/phpmailer
