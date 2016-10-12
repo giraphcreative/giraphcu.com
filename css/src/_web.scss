@@ -1,0 +1,104 @@
+
+
+.web {
+	background: $red;
+	color: white;
+	padding: 120px 0 60px;
+	
+	.inner {
+		padding: 30px;
+	}
+
+	.intro {
+		background: white;
+		color: $grey;
+		text-align: center;
+		padding: 50px 30px 50px;
+
+		h2 {
+			font-size: 1.8em;
+		}
+	}
+
+	.box {
+		background-color: rgba( 255, 255, 255, 0.2 );
+		padding: 30px;
+	}
+
+	@include respond-to( 500px ) {
+		.inner {
+			padding: 40px 80px 60px;
+		}
+
+		.box {
+			padding: 30px 80px;
+		}
+	}
+
+	@include respond-to( 768px ) {
+
+		.backgroundsize & {
+			background: url(../img/bg-red-molecules.png) center center no-repeat;
+			background-size: cover;
+		}
+
+		.inner {
+			padding: 40px 120px 60px;
+		}
+
+		.box {
+			padding: 30px 120px;
+		}
+	}
+
+	@include respond-to( 1024px ) {
+		min-height: 800px;
+		padding-top: 50px;
+
+		header {
+			.backgroundsize &:after {
+				content: "";
+				position: absolute;
+				bottom: -198px;
+				right: -10px;
+				width: 200px;
+				height: 200px;
+				background: url(../img/coil-grey.png) top center no-repeat;
+				background-size: contain;
+			}
+		}
+
+		.intro {
+			position: relative;
+			padding: 30px;
+			
+			img {
+				position: absolute;
+				left: 2%;
+				top: 30px;
+				bottom: 30px;
+				width: 30%;
+				max-width: 400px;
+				margin: 0 2%;
+			}
+
+			h2 {
+				font-size: 1.7em;
+				padding-left: 80px;
+			}
+		}
+
+		.inner {
+			float: left;
+			padding: 40px 50px;
+			width: 55%;
+		}
+
+		.box {
+			float: right;
+			padding: 40px;
+			width: 45%;
+		}
+	}
+}
+

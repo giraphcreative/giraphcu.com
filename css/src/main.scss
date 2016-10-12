@@ -1,0 +1,231 @@
+
+
+// include our fonts
+@import url(//fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:300italic,400italic,700italic,400,300,700|La+Belle+Aurore);
+
+// sans-serif mixin
+@mixin sans-serif {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
+// serif mixin
+@mixin serif {
+	font-family: "EB Garamond", serif;
+	font-weight: 400;
+}
+
+@mixin cursive {
+	font-family: "La Belle Aurore", cursive, serif;
+	font-weight: 400;
+}
+
+// set our colors
+$red: #be202e;
+$grey: #58595b;
+$grey-light: lighten( $grey, 50% );
+$grey-lighter: lighten( $grey, 54% );
+
+
+// import my sass library components
+// mixin respond-to()
+@import "../lib/mixins";
+
+// prefixer
+@import "../lib/prefixer";
+
+// the normalize/reset - Meyer
+@import "../lib/reset";
+
+// include our grid
+@import "../lib/grid";
+
+
+// import our components
+@import "nav";
+@import "header";
+@import "what";
+@import "why";
+@import "who";
+@import "work";
+@import "web";
+@import "words";
+@import "speak";
+@import "connect";
+
+
+// base styles
+
+body {
+	@include sans-serif;
+	font-size: 100%;
+	line-height: 1.4em;
+	overflow-x: hidden;
+}
+
+strong, th, b {
+	font-weight: 700;
+}
+
+a {
+	color: darken( $red, 20% );
+	text-decoration: none;
+	border-bottom: 1px dotted $red;
+	@include prefix( "transition", "color 400ms ease-in-out" );
+
+	&:hover {
+		color: darken( $red, 5% );
+	}
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	padding: 9px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2em;
+}
+
+h1 {
+
+}
+
+h2 {
+	font-size: 2.7em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+input[type=text], textarea {
+	width: 100%;
+	padding: 15px;
+	border: 0;
+	font-size: 14px;
+	-webkit-appearance: none;
+	@include prefix( "border-radius", "0" );
+	@include sans-serif;
+}
+
+textarea {
+	height: 150px;
+}
+
+input[type=submit], button, .btn {
+	display: block;
+	margin: 0 auto;
+	background: darken( $red, 20% );
+	color: lighten( $red, 45% );
+	border: 0;
+	font-size: 23px;
+	line-height: 23px;
+	padding: 20px 40px;
+	cursor: pointer;
+	-webkit-appearance: none;
+	@include prefix( "border-radius", "0" );
+	@include sans-serif;
+	@include prefix( "box-shadow", "0 0 15px rgba( 255, 255, 255, 0.3 )" );
+	@include prefix( "transition", "all 300ms ease-in-out" );
+
+	&:hover {
+		background: darken( $red, 15% );
+		color: white;
+		@include prefix( "box-shadow", "0 0 35px rgba( 255, 255, 255, 0.6 )" );
+	}
+}
+
+.brackets {
+	color: $red;
+
+	&:before, &:after { color: darken( $grey, 30% ); }
+	&:before { content: "{"; }
+	&:after { content: "}"; }
+}
+
+
+// some general classes that affect multiple modules.
+section {
+	@include clearfix;
+	position: relative;
+	padding: 160px 30px 60px;
+	
+	@include respond-to( 500px ) {
+		padding: 160px 70px 70px;
+	}
+
+	header {
+		background: white;
+		width: 260px;
+		padding: 20px 0;
+		color: black;
+		text-align: center;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -130px;
+		z-index: 100;
+
+		.boxshadow & {
+			@include prefix( "box-shadow", "8px 8px 0 rgba( 0, 0, 0, 0.2 )" );
+		}
+
+		h2 {
+			font-size: 2.2em;
+			line-height: 1.2em;
+			@include serif;
+
+			span {
+				display: block;
+				color: $red;
+				font-size: 1.2em;
+				@include sans-serif;
+				
+				&:before, &:after { color: black; }
+
+				&:before { content: "{"; }
+
+				&:after { content: "}"; }
+			}
+		}
+	}
+
+	&.quote {
+		padding: 30px;
+		text-align: center;
+		font-size: 1.5em;
+		background: lighten( $red, 5% );
+		color: white;
+		@include cursive;
+	}
+
+	@include respond-to( 1024px ) {
+		header {
+			left: auto;
+			margin: 0;
+			right: 5%;
+			top: 0;
+			width: 200px;
+		}
+	}
+}
+
+
+.thanks a {
+	border-bottom: 0;
+}
+
+.thanks-logo {
+	margin-top: 100px;
+}
+
+
+.wrap {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+

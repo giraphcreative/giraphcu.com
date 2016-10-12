@@ -1,0 +1,66 @@
+
+.connect {
+	background-color: $red;
+	padding: 170px 30px 30px;
+	color: lighten( $grey, 60% );
+
+	a {
+		color: white;
+	}
+
+	@include respond-to( 768px ) {
+		padding: 170px 70px 30px;
+		
+		.inner {
+			padding-bottom: 40px;
+		}
+
+		.blurb {
+			text-align: center;
+		}
+
+		.backgroundsize & {
+			background: url(../img/bg-red-molecules.png) center center no-repeat;
+			background-size: cover;
+		}
+
+	}
+
+	@include respond-to( 1024px ) {
+		padding: 30px 30px 300px;
+
+		.inner {
+			padding: 40px 30% 0 70px;
+		}
+
+		.backgroundsize &:after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 50%;
+			height: 300px;
+			max-width: 600px;
+			background: url(../img/pipes.png) bottom left no-repeat;
+			background-size: contain;
+		}
+
+		.blurb {
+			text-align: left;
+			position: absolute;
+			right: 35px;
+			bottom: 35px;
+			width: 25%;
+		}
+
+	}
+
+	@include respond-to( 1025px ) {
+		
+	}
+	
+	@include respond-to( 1440px ) {
+
+	}
+
+}

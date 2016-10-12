@@ -1,0 +1,62 @@
+
+
+.what {
+	background: lighten( $grey, 15% );
+	color: white;
+
+	@include respond-to( 768px ) {
+		padding: 15px 0 0 15px;
+
+		.backgroundsize & {
+			background: url(../img/bg-greymiddle-molecules.png) center center no-repeat;
+			background-size: cover;
+		}
+
+	}
+
+	strong {
+		color: $red;
+		@include prefix( "text-shadow", "0 0 6px rgba( 255, 255, 255, 0.5 )" );
+	}
+	
+	.inner {
+		padding-top: 20px;
+
+		@include respond-to( 768px ) {
+			background: url(../img/bg-reel.png) top left no-repeat;
+			padding: 170px 100px 100px 100px;
+		}
+
+		@include respond-to( 1024px ) {
+			padding: 140px 35% 120px 180px;
+		}
+
+	}
+
+	@include respond-to( 768px ) {
+		.inner {
+			background: url(../img/bg-reel.png) top left no-repeat;
+			padding: 170px 100px 100px 100px;
+		}
+	}
+	
+	@include respond-to( 1024px ) {
+		.backgroundsize &:after {
+			content: "";
+			position: absolute;
+			width: 30%;
+			max-width: 450px;
+			height: 600px;
+			right: 0;
+			bottom: 0;
+			background: url(../img/beaker.png) bottom right no-repeat;
+			background-size: contain;
+		}
+
+		.inner {
+			padding: 100px 30% 60px 200px;
+		}
+	}
+
+}
+

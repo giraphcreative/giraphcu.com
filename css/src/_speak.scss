@@ -1,0 +1,87 @@
+
+
+.speak {
+	background-color: $grey;
+	padding: 160px 30px 100px;
+	color: lighten( $grey, 60% );
+
+	.presentation {
+		margin: 30px 0;
+
+		h3 {
+			font-weight: 700;
+			font-size: 1.1em;
+		}
+
+		p {
+			font-size: 15px;
+			line-height: 22px;
+		}
+	}
+
+	@include respond-to( 600px ) {
+
+		.inner, .intro {
+			padding: 0 5%;
+		}
+
+		.presentation {
+			float: left;
+			width: 45%;
+			margin: 30px 5% 30px 0;
+
+			h3 {
+				font-weight: 700;
+				font-size: 1.1em;
+			}
+		}
+
+	}
+
+	@include respond-to( 768px ) {
+
+		.backgroundsize & {
+			background: url(../img/bg-greydark-molecules.png) center center no-repeat;
+			background-size: cover;
+		}
+
+	}
+
+	@include respond-to( 1024px ) {
+		padding-top: 20px;
+
+		.intro {
+			padding: 20px 25% 40px 5%;
+		}
+		
+		.presentation.last {
+			width: 35%;
+		}
+
+		.backgroundsize &:after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 20%;
+			height: 400px;
+			max-width: 240px;
+			background: url(../img/stat-giraph.png) bottom right no-repeat;
+			background-size: contain;
+		}
+
+	}
+
+	@include respond-to( 1025px ) {
+		
+	}
+	
+	@include respond-to( 1440px ) {
+
+		.presentation.last {
+			width: 40%;
+		}
+
+	}
+
+}

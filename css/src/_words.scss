@@ -1,0 +1,122 @@
+
+
+.words {
+	background-color: $grey-light;
+	padding: 160px 0 60px;
+
+	.intro {
+		padding: 0 0 30px;
+
+		h4 {
+			font-size: 1.1em;
+		}
+	}
+
+	.inner {
+		padding: 30px;
+	}
+
+	.article {
+		background: white;
+		padding: 20px 30px;
+		margin-bottom: 30px;
+		@include prefix( "box-shadow", "10px 10px 0px rgba( 0, 0, 0, 0.12 )" );
+
+		h3 {
+			@include serif;
+			font-size: 32px;
+			line-height: 34px;
+		}
+
+		p {
+			color: $grey;
+			font-size: 15px;
+			line-height: 22px;
+		}
+	
+		.csstransforms &:nth-child(2) { @include prefix( "transform", "rotate(-0.5deg)" ); }
+		.csstransforms &:nth-child(3) { @include prefix( "transform", "rotate(-1deg)" ); }
+		.csstransforms &:nth-child(4) { @include prefix( "transform", "rotate(0.5deg)" ); }
+		.csstransforms &:nth-child(5) { @include prefix( "transform", "rotate(-0.4deg)" ); }
+		.csstransforms &:nth-child(6) { @include prefix( "transform", "rotate(-1.2deg)" ); }
+		.csstransforms &:nth-child(7) { @include prefix( "transform", "rotate(1.4deg)" ); }
+		.csstransforms &:nth-child(8) { @include prefix( "transform", "rotate(-0.4deg)" ); }
+		.csstransforms &:nth-child(9) { @include prefix( "transform", "rotate(-1.6deg)" ); }
+		.csstransforms &:nth-child(10) { @include prefix( "transform", "rotate(0.6deg)" ); }
+		.csstransforms &:nth-child(11) { @include prefix( "transform", "rotate(-0.5deg)" ); }
+		.csstransforms &:nth-child(12) { @include prefix( "transform", "rotate(-1deg)" ); }
+		.csstransforms &:nth-child(13) { @include prefix( "transform", "rotate(1deg)" ); }
+		.csstransforms &:nth-child(14) { @include prefix( "transform", "rotate(-0.5deg)" ); }
+		.csstransforms &:nth-child(15) { @include prefix( "transform", "rotate(-1deg)" ); }
+		.csstransforms &:nth-child(16) { @include prefix( "transform", "rotate(0.5deg)" ); }
+		.csstransforms &:nth-child(17) { @include prefix( "transform", "rotate(-0.4deg)" ); }
+		.csstransforms &:nth-child(18) { @include prefix( "transform", "rotate(-1.2deg)" ); }
+		.csstransforms &:nth-child(19) { @include prefix( "transform", "rotate(1.4deg)" ); }
+		.csstransforms &:nth-child(20) { @include prefix( "transform", "rotate(-0.4deg)" ); }
+		.csstransforms &:nth-child(21) { @include prefix( "transform", "rotate(-1.6deg)" ); }
+		.csstransforms &:nth-child(22) { @include prefix( "transform", "rotate(0.6deg)" ); }
+		.csstransforms &:nth-child(23) { @include prefix( "transform", "rotate(-0.5deg)" ); }
+		.csstransforms &:nth-child(24) { @include prefix( "transform", "rotate(-1deg)" ); }
+		.csstransforms &:nth-child(25) { @include prefix( "transform", "rotate(1deg)" ); }
+
+	}
+
+	@include respond-to( 600px ) {
+		padding-left: 2%;
+		padding-bottom: 300px;
+
+		.backgroundsize &:after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 500px;
+			height: 500px;
+			background: url(../img/machine.png) bottom center no-repeat;
+			background-size: contain;
+		}
+
+	}
+
+	@include respond-to( 768px ) {
+
+		.article {
+			float: left;
+			width: 97%;
+			margin-right: 3%;
+
+			&.small {
+				width: 47%;
+				height: 380px;
+			}
+		}
+
+	}
+
+	@include respond-to( 1024px ) {
+		padding-top: 30px;
+		padding-bottom: 120px;
+		
+		.intro {
+			padding: 20px 0 50px;
+		}
+
+		.inner {
+			padding: 0 30% 0 50px;
+		}
+
+		.backgroundsize &:after {
+			right: 50px;
+		}
+
+	}
+
+	@include respond-to( 1025px ) {
+
+	}
+	
+	@include respond-to( 1220px ) {
+
+	}
+
+}
