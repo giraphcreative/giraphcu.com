@@ -3,7 +3,7 @@
 <head>
 	<title>gira{ph} creative</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="/css/main.css?v=1" rel="stylesheet" type="text/css">
+	<link href="/css/main.css?v=2" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="/css/ie.css?v=1" />
 	<![endif]-->
