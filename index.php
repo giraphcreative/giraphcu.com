@@ -140,7 +140,7 @@
 				<h4>Code {Monkey}</h4>
 				<p>James is a web developer from Madison, WI with a particular emphasis on front-end development. He thrives on building solutions to help clients better serve their members and visitors.</p>
 				<p>He creates addictive, usable, and accessible websites and web applications that not only function well, but also display beautifully on all devices. He's also the major brains behind {ph}ormula, our web solution for credit unions along with a lot of wild giraph web projects and innovations.</p>
-				<p>When he's not coding, he enjoys a beer, hanging out with his girlfriend, and going to see his friends' bands.</p>
+				<p>When he's not coding, he enjoys a beer, hanging out with his dog, and going to see his friends' bands.</p>
 			
 			</div>
 			<div class="bio">
