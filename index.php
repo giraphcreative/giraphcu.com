@@ -107,6 +107,17 @@
 			
 			</div>
 			<div class="bio">
+			
+				<div class="pic">
+					<img src="img/photo-zach.png">
+				</div>
+
+				<h3>Zach Garster</h3>
+				<h4>Design {Maestro}</h4>
+				<p>Though he has always had a passion for art and design, he has a degree in vocal music education, and has worked in a number of unique and diverse fields and environments.  Zach is a curator of interesting hobbies and experiences (including playing the accordion at an extremely amateur level), making him a valuable designer and creative mind.  He truly believes everything happens for a reason, and that his experiences have prepared him to approach new situations from a unique perspective.  Zach couldn’t be more excited to bring some of those perspectives to gira{ph} as Creative Director.He is a lover of reggae music, sweaters, craft beer, and good coffee. When he’s not behind a screen creating beautiful things, he can be found singing show tunes, spending time with his wife, his dog and two cats, or noshing on some delicious Turkish cuisine.</p>
+			
+			</div>
+			<div class="bio">
 
 				<div class="pic">
 					<img src="img/photo-lisa.png">
@@ -155,17 +166,6 @@
 				<h4>Artist {Animator}</h4>
 				<p>Eric graduated from The Art Institute of Philadelphia. As far back as Eric can remember he always wanted to work for non profit organizations, who make the world a better place. which is was drew him to working for credit unions. While he loves art in every form he particularly enjoys putting together 2D and 3D animations. He also does print and website design. Eric has many skills with video such as green screening and compositing, 3D motion tracking as well as Foley and sound design. In his spare time he enjoys listening to all type of music, watching movies and leading his friends in World of Warcraft.</p>
 				<p>He has an irrational love of infographics and will only drink one particular brand of whiskey.</p>
-			
-			</div>
-			<div class="bio">
-			
-				<div class="pic">
-					<img src="img/photo-zach.png">
-				</div>
-
-				<h3>Zach Garster</h3>
-				<h4>Design {Maestro}</h4>
-				<p>Though he has always had a passion for art and design, he has a degree in vocal music education, and has worked in a number of unique and diverse fields and environments.  Zach is a curator of interesting hobbies and experiences (including playing the accordion at an extremely amateur level), making him a valuable designer and creative mind.  He truly believes everything happens for a reason, and that his experiences have prepared him to approach new situations from a unique perspective.  Zach couldn’t be more excited to bring some of those perspectives to gira{ph} as Creative Director.He is a lover of reggae music, sweaters, craft beer, and good coffee. When he’s not behind a screen creating beautiful things, he can be found singing show tunes, spending time with his wife, his dog and two cats, or noshing on some delicious Turkish cuisine.</p>
 			
 			</div>
 		</div>
