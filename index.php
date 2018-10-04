@@ -20,7 +20,7 @@
 			<li><a href="#work">work</a></li>
 			<li><a href="#web">web</a></li>
 			<li><a href="#words">words</a></li>
-			<li><a href="#speak">speak</a></li>
+			<!--<li><a href="#speak">speak</a></li>-->
 			<li><a href="#connect">connect</a></li>
 		</ul>
 	</nav>
@@ -422,7 +422,8 @@
 		</div>
 
 	</section>
-
+	
+	<!--
 	<section id="speak" class="speak">
 		
 		<header>
@@ -464,6 +465,7 @@
 		</div>
 
 	</section>
+	-->
 
 	<section id="connect" class="connect">
 		
