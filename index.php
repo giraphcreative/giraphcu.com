@@ -167,7 +167,7 @@
 				<p>When not pushing pixels and words around for clients, he likes to make music videos featuring his scratch-built R/C planes.</p>
 			
 			</div>
-			<div class="bio">
+			<div class="bio clear">
 			
 				<div class="pic">
 					<img src="img/photo-eric.png">
