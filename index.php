@@ -114,7 +114,18 @@
 
 				<h3>Zach Garster</h3>
 				<h4>Design {Maestro}</h4>
-				<p>Though he has always had a passion for art and design, he has a degree in vocal music education, and has worked in a number of unique and diverse fields and environments.  Zach is a curator of interesting hobbies and experiences (including playing the accordion at an extremely amateur level), making him a valuable designer and creative mind.  He truly believes everything happens for a reason, and that his experiences have prepared him to approach new situations from a unique perspective.  Zach couldn’t be more excited to bring some of those perspectives to gira{ph} as Creative Director.He is a lover of reggae music, sweaters, craft beer, and good coffee. When he’s not behind a screen creating beautiful things, he can be found singing show tunes, spending time with his wife, his dog and two cats, or noshing on some delicious Turkish cuisine.</p>
+				<p>Though he has always had a passion for art and design, he has a degree in vocal music education, and has worked in a number of unique and diverse fields and environments.  Zach is a curator of interesting hobbies and experiences (including playing the accordion at an extremely amateur level), making him a valuable designer and creative mind.  He truly believes everything happens for a reason, and that his experiences have prepared him to approach new situations from a unique perspective.  Zach couldn't be more excited to bring some of those perspectives to gira{ph} as Creative Director. He is a lover of reggae music, sweaters, craft beer, and good coffee. When he's not behind a screen creating beautiful things, he can be found singing show tunes, spending time with his wife, his dog and two cats, or noshing on some delicious Turkish cuisine.</p>
+			
+			</div>
+			<div class="bio">
+			
+				<div class="pic">
+					<img src="img/photo-brianna.png">
+				</div>
+
+				<h3>Brianna Kelly</h3>
+				<h4>Desktop {Composer}</h4>
+				<p>Bria's professional career has included a broad exposure to fine art, graphic art, music, and being deeply involved in the entertainment industry on an international scale through her involvement on two nationally televised shows (The Voice & America's Got Talent). It was during this time on these shows that she started to brand herself and her band for social media. Designing banners and flyers quickly developed into a love and passion for graphic design that ultimately led her to study it full-time at Virginia Commonwealth University. Bria graduated from VCU with a Bachelor of Fine Arts Degree in Graphic Design. When she isn't designing, Bria enjoys cooking, playing drums, and ordering cat toys on Amazon.</p>
 			
 			</div>
 			<div class="bio">
