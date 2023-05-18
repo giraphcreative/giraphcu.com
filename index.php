@@ -178,6 +178,18 @@
 				<p>Eric graduated from The Art Institute of Philadelphia. As far back as Eric can remember he always wanted to work for non profit organizations, who make the world a better place. which is was drew him to working for credit unions. While he loves art in every form he particularly enjoys putting together 2D and 3D animations. He also does print and website design. Eric has many skills with video such as green screening and compositing, 3D motion tracking as well as Foley and sound design. In his spare time he enjoys listening to all type of music, watching movies and leading his friends in World of Warcraft.</p>
 				<p>He has an irrational love of infographics and will only drink one particular brand of whiskey.</p>
 			
+			</div>			
+			<div class="bio">
+			
+				<div class="pic">
+					<img src="img/photo-alex.png">
+				</div>
+
+				<h3>Alex Robinson</h3>
+				<h4>Multimedia {Ninja}</h4>
+				<p>Alex has always enjoyed creating things behind the screen. He loves the creativity and problem-solving nature of design, which led him to pursue it as a degree while at Radford University. Alex started his design career at a fast-paced print shop before working as a full-time freelancer. From print and digital designs to motion graphics and video, he has experience working on a wide range of projects. He is constantly learning something new about design programs and techniques.</p>
+				<p>Alex loves music, photography, and spending time with friends and family. In his spare time he enjoys playing video games, shredding on his guitar, and adventuring with his dog Ellie.</p>
+			
 			</div>
 		</div>
 
