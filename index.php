@@ -129,6 +129,18 @@
 			
 			</div>
 			<div class="bio">
+			
+				<div class="pic">
+					<img src="img/photo-alex.png">
+				</div>
+
+				<h3>Alex Robinson</h3>
+				<h4>Multimedia {Ninja}</h4>
+				<p>Alex has always enjoyed creating things behind the screen. He loves the creativity and problem-solving nature of design, which led him to pursue it as a degree while at Radford University. Alex started his design career at a fast-paced print shop before working as a full-time freelancer. From print and digital designs to motion graphics and video, he has experience working on a wide range of projects. He is constantly learning something new about design programs and techniques.</p>
+				<p>Alex loves music, photography, and spending time with friends and family. In his spare time he enjoys playing video games, shredding on his guitar, and adventuring with his dog Ellie.</p>
+			
+			</div>
+			<div class="bio clear">
 
 				<div class="pic">
 					<img src="img/photo-lisa.png">
@@ -154,7 +166,7 @@
 				<p>When he's not coding, he enjoys a beer, hanging out with his dog, and going to see his friends' bands.</p>
 			
 			</div>
-			<div class="bio">
+			<div class="bio clear">
 			
 				<div class="pic">
 					<img src="img/photo-mark.png">
@@ -167,7 +179,7 @@
 				<p>When not pushing pixels and words around for clients, he likes to make music videos featuring his scratch-built R/C planes.</p>
 			
 			</div>
-			<div class="bio clear">
+			<div class="bio">
 			
 				<div class="pic">
 					<img src="img/photo-eric.png">
@@ -179,18 +191,6 @@
 				<p>He has an irrational love of infographics and will only drink one particular brand of whiskey.</p>
 			
 			</div>			
-			<div class="bio">
-			
-				<div class="pic">
-					<img src="img/photo-alex.png">
-				</div>
-
-				<h3>Alex Robinson</h3>
-				<h4>Multimedia {Ninja}</h4>
-				<p>Alex has always enjoyed creating things behind the screen. He loves the creativity and problem-solving nature of design, which led him to pursue it as a degree while at Radford University. Alex started his design career at a fast-paced print shop before working as a full-time freelancer. From print and digital designs to motion graphics and video, he has experience working on a wide range of projects. He is constantly learning something new about design programs and techniques.</p>
-				<p>Alex loves music, photography, and spending time with friends and family. In his spare time he enjoys playing video games, shredding on his guitar, and adventuring with his dog Ellie.</p>
-			
-			</div>
 		</div>
 
 	</section>
